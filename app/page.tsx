@@ -2,9 +2,9 @@ import Image from "next/image";
 import Petals from "./Petals";
 
 const photos = [
-  { src: "/images/photo-1.jpg", alt: "Our first chapter" },
-  { src: "/images/photo-2.jpg", alt: "A beautiful moment together" },
-  { src: "/images/photo-3.jpg", alt: "Our engagement chapter" },
+  { src: "/images/photo2.jpg", alt: "Our first chapter" },     // matches public/images/photo2.jpg
+  { src: "/images/Photo3.jpg", alt: "A beautiful moment together" }, // matches public/images/Photo3.jpg
+  { src: "/images/Photo4.jpg", alt: "Our engagement chapter" }, // matches public/images/Photo4.jpg
 ];
 
 export default function Home() {
