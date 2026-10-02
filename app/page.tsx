@@ -2,9 +2,9 @@ import Image from "next/image";
 import Petals from "./Petals";
 
 const photos = [
-  { src: "/images/photo2.jpg", alt: "Our first chapter" },     // matches public/images/photo2.jpg
-  { src: "/images/Photo3.jpg", alt: "A beautiful moment together" }, // matches public/images/Photo3.jpg
-  { src: "/images/Photo4.jpg", alt: "Our engagement chapter" }, // matches public/images/Photo4.jpg
+  { src: "public/images/photo2.jpg", alt: "Our first chapter" },     // matches public/images/photo2.jpg
+  { src: "public/images/Photo3.jpg.jpg", alt: "A beautiful moment together" }, // matches public/images/Photo3.jpg
+  { src: "public/images/Photo4.jpg", alt: "Our engagement chapter" }, // matches public/images/Photo4.jpg
 ];
 
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
 
         <div className="hero-photo-wrap">
           <div className="photo-frame">
-            <Image src="/images/cover.jpg" alt="The engaged couple together" width={940} height={1175} priority />
+            <Image src="public/images/cover.jpg" alt="The engaged couple together" width={940} height={1175} priority />
           </div>
           <span className="frame-note">Together, always</span>
         </div>
